@@ -3,19 +3,30 @@
     "name": "TrafficRoadMap",
     "slug": "TrafficRoadMap",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "scheme": "trafficroadmap",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": false,
     "android": {
-      "package": "com.trafficroadmapyandex52",
+      "package": "com.trafficroadmap",
       "permissions": [
         "INTERNET"
       ]
     },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26,
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ]
+    ],
     "extra": {
       "eas": {
-        "projectId": "11293872-4aad-4d51-afe7-f3785e93be85"
+        "projectId": "ed229f2f-8bb6-4355-8b58-ab7edd4f2bec"
       }
     },
     "owner": "userdaniel"
