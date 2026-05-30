@@ -12,6 +12,12 @@
       "permissions": [
         "INTERNET"
       ]
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "11293872-4aad-4d51-afe7-f3785e93be85"
+      }
+    },
+    "owner": "userdaniel"
   }
 }
